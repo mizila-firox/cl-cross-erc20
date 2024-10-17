@@ -30,7 +30,7 @@ contract Sender {
             tokenAmounts: tokenAmounts,
             feeToken: address(linkToken),
             extraArgs: Client._argsToBytes(
-                Client.EVMExtraArgsV1({gasLimit: 800_000})
+                Client.EVMExtraArgsV1({gasLimit: 600_000})
             )
         });
 
