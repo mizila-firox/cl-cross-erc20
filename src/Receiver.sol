@@ -33,5 +33,3 @@ contract Receiver is CCIPReceiver {
         priceB = b;
     }
 }
-//
-//
